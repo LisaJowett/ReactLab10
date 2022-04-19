@@ -36,3 +36,5 @@ function TechnologySummary()
                 </div>
     )
 }
+
+export default TechnologySummary;

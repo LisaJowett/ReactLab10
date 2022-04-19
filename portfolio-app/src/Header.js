@@ -1,8 +1,7 @@
-import Header from '.Header.js';
-
 function Header()
 {
     return(
+        <>
 <header className="text-white bg-dark">
         <div className="container py-5">
             <div className="row">
@@ -30,6 +29,8 @@ function Header()
             </div>
         </div>
     </header>
+
+</>
     );
 }
 
