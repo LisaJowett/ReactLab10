@@ -1,9 +1,51 @@
 import './App.css';
+import Header from './Header.js';
+import WorkExperience from './WorkExperience.js';
+import TechnologySummary from './TechnologySummary.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
+     <Header />  
+    <main className="container">
+        <div className="row mt-3">
+            <div className="col-md">
+              <WorkExperience />  
+            </div>
+            <div className="col-md">
+                <div className="card">
+                    <div className="card-body">
+                        <h2 className="card-title">Education</h2>
+                        <ul className="list-unstyled">
+                            <li>
+                                <h6 className="fw-bold">Computer Science / University Name 2001-2004</h6>
+                                <p>Sed et ornare quam. Cras scelerisque ex ultricies neque sodales tristique. Phasellus
+                                    mattis
+                                    dui ut enim
+                                    tincidunt auctor. Maecenas euismod, orci eget varius elementum, nunc massa dignissim
+                                    sapien,
+                                    ac sagittis
+                                    libero dolor vitae elit.</p>
+                            </li>
+                            <li>
+                                <h6 className="fw-bold">Testville High School 1994-2000</h6>
+                                <p>Aenean nisl enim, dictum in odio ut, suscipit efficitur diam. Nam nec velit a odio
+                                    porta
+                                    efficitur nec at
+                                    magna.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="row mt-3">
+            <div className="col-md mb-5">
+                <TechnologySummary />
+            </div>
+        </div>
+    </main>
+    
     </div>
   );
 }
