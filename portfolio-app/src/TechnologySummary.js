@@ -1,6 +1,7 @@
 function TechnologySummary()
 {
     return (
+        <>
         <div className="card">
                     <div className="card-body">
                         <h2 className="card-title">Technology Summary</h2>
@@ -16,7 +17,8 @@ function TechnologySummary()
                         </ul>
                     </div>
                 </div>
-    )
+                </>
+    );
 }
 
 export default TechnologySummary;

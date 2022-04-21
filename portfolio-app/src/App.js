@@ -4,7 +4,8 @@ import WorkExperience from './WorkExperience.js';
 import TechnologySummary from './TechnologySummary.js';
 import Education from './Education.js';
 
-function App() {
+function App() 
+{
   return (
     <div className="App">
      <Header />  
